@@ -1,0 +1,68 @@
+// Initializing of IDs
+MLab  (XXXXX = like this ds149040.mlab.com:49040)
+mongoimport -h "XXXXX figure it out when you create baanda-dev-07" -d baanda-dev-07 -c allbaandaids -u babula -p Ranjan10 --file C:\baandadev4\baanda-dev4-assets\baanda_domain_ids.csv --type csv --headerline 
+Atlas - for sarbojit.project@gmail.com (sandbox - cluster0)
+// All Ids
+mongoimport --host BaandaDev-shard-0/baandadev-shard-00-00-crmd7.mongodb.net:27017 --db baanda-dev-05 --collection allbaandaids --type csv --headerline --file C:\baandadev4\baanda-dev4-assets\baanda_domain_ids.csv --authenticationDatabase admin --ssl --username babula --password Ranjan10
+// Incremental Id
+mongoimport --host BaandaDev-shard-0/baandadev-shard-00-00-crmd7.mongodb.net:27017 --db baanda-dev-05 --collection allbaandaids --type csv --headerline --file C:\baandadev4\baanda-dev4-assets\baanda_domain_ids_inc.csv --authenticationDatabase admin --ssl --username babula --password Ranjan10
+// For release Q2 ... we need to setup corresponding string for that db & cluster
+
+
+
+// For journalAccountPair 
+// MLab
+mongoimport -h "XXXXX figure it out when you create baanda-dev-07" -d baanda-dev-07 -c journalaccountpairs -u babula -p Ranjan10 --file C:\baandadev4\baanda-dev4-assets\journal-account-pair.csv --type csv --headerline 
+// Atlas sarbojit.project@gmail.com
+mongoimport --host BaandaDev-shard-0/baandadev-shard-00-00-crmd7.mongodb.net:27017 --db baanda-dev-05 --collection journalaccountpairs --type csv --headerline --file C:\baandadev4\baanda-dev4-assets\journal-account-pair.csv --authenticationDatabase admin --ssl --username babula --password Ranjan10
+
+// Big Five questions ... 
+// MLab
+mongoimport -h "XXXXX figure it out when you create baanda-dev-07" -d baanda-dev-07 -c bigfivequestions -u babula -p Ranjan10 --file C:\baandadev4\baanda-dev4-assets\bigfivequestions-09132019.csv --type csv --headerline 
+// Atlas
+// mongoimport --host baandadev-shard-00-00-crmd7.mongodb.net:27017 --db baanda-dev-05 --collection bigfivequestions --type csv --headerline --file C:\baandadev4\baanda-dev4-assets\bigfivequestions-09132019.csv --authenticationDatabase admin --ssl --username babula --password Ranjan10
+mongoimport --host BaandaDev-shard-0/baandadev-shard-00-00-crmd7.mongodb.net:27017 --db baanda-dev-05 --collection bigfivequestions --type csv --headerline --file C:\baandadev4\baanda-dev4-assets\bigfivequestions-09132019.csv --authenticationDatabase admin --ssl --username babula --password Ranjan10
+
+
+// To login into Atlas via mongo 
+mongo "mongodb+srv://baandadev-crmd7.mongodb.net/admin"  --username babula
+
+// For baandaPricing
+// MLab
+mongoimport -h "XXXXX figure it out when you create baanda-dev-07" -d baanda-dev-07 -c servicepricing -u babula -p Ranjan10 --file C:\baandadev4\baanda-dev4-assets\journal-account-pair.csv --type csv --headerline 
+// Atlas
+// mongoimport --host baandadev-shard-00-00-crmd7.mongodb.net:27017 --db baanda-dev-05 --collection servicepricings --type csv --headerline --file C:\baandadev4\baanda-dev4-assets\servicePricing.csv --authenticationDatabase admin --ssl --username babula --password Ranjan10
+mongoimport --host BaandaDev-shard-0/baandadev-shard-00-00-crmd7.mongodb.net:27017 --db baanda-dev-05 --collection servicepricings --type csv --headerline --file C:\baandadev4\baanda-dev4-assets\servicePricing.csv --authenticationDatabase admin --ssl --username babula --password Ranjan10
+
+ 
+// For baandaFinState
+// MLab
+mongoimport -h "XXXXX figure it out when you create baanda-dev-07" -d baanda-dev-07 -c servicepricing -u babula -p Ranjan10 --file C:\baandadev4\baanda-dev4-assets\journal-account-pair.csv --type csv --headerline 
+// Atlas
+mongoimport --host baandadev-shard-00-00-crmd7.mongodb.net:27017 --db baanda-dev-05 --collection baandafinstates --type csv --headerline --file C:\baandadev4\baanda-dev4-assets\baanda_fin_state.csv --authenticationDatabase admin --ssl --username babula --password Ranjan10
+
+// For BAFuncRoleMap
+// Atlas
+mongoimport --host BaandaDev-shard-0/baandadev-shard-00-00-crmd7.mongodb.net:27017 --db baanda-dev-05 --collection functionrolemaps --type csv --headerline --file C:\baandadev4\baanda-dev4-assets\BAFuncRoleMap.csv --authenticationDatabase admin --ssl --username babula --password Ranjan10
+
+//========================================================
+
+
+mongoimport --host BaandaDev-shard-0/baandadev-shard-00-00-crmd7.mongodb.net:27017 --db baanda-dev-05 --collection servicepricings --type csv --headerline --file C:\baandadev4\baanda-dev4-assets\servicePricing.csv --authenticationDatabase admin --ssl --username babula --password Ranjan10
+
+// For exmple 
+mongodump --host BaandaDev-shard-0/baandadev-shard-00-00-crmd7.mongodb.net:27017,baandadev-shard-00-01-crmd7.mongodb.net:27017,baandadev-shard-00-02-crmd7.mongodb.net:27017 --ssl --username babula --password <PASSWORD> --authenticationDatabase admin --db <DATABASE>
+// I got the above via ... >> clusters then click ... (for more - like button with three dots like '...' after collections). Then, click on command line tools. 
+
+mongodb+srv://babula:<password>@baandadev-crmd7.mongodb.net/admin?retryWrites=true&w=majority//
+
+// For connecting to Atlas DB via CLI
+mongo "mongodb+srv://baandadev-crmd7.mongodb.net/admin"  --username babula
+
+// for imports
+baandadev-shard-00-00-crmd7.mongodb.net:27017 
+
+
+//===============**********************88
+// For timezone metafile
+mongoimport --host BaandaDev-shard-0/baandadev-shard-00-00-crmd7.mongodb.net:27017 --jsonArray --db baanda-dev-05 --collection timezone --type json --file C:\baandadev4\baanda-dev4-assets\timezones1.json --authenticationDatabase admin --ssl --username babula --password Ranjan10

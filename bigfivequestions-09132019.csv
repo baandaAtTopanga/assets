@@ -1,0 +1,51 @@
+seq_no,question,Explanation,persona_category,sub_category,sub_category_plus,sub_category_minus,inversion_flag,init_question_flag
+1,am the life of the party.,FutureScope,E,FutureScope,FutureScope,FutureScope,plus ,TRUE
+2,feel little concerned for others.,FutureScope,A,FutureScope,FutureScope,FutureScope,minus,TRUE
+3,am always prepared.,FutureScope,C,FutureScope,FutureScope,FutureScope,plus ,TRUE
+4,get stressed out easily.,FutureScope,N,FutureScope,FutureScope,FutureScope,minus,TRUE
+5,have rich vocabulary.,FutureScope,O,FutureScope,FutureScope,FutureScope,plus ,TRUE
+6,do not talk a lot.,FutureScope,E,FutureScope,FutureScope,FutureScope,minus,TRUE
+7,am interested in people.,FutureScope,A,FutureScope,FutureScope,FutureScope,plus ,TRUE
+8,leave my belongings around.,FutureScope,C,FutureScope,FutureScope,FutureScope,minus,TRUE
+9,am relaxed most of the time.,FutureScope,N,FutureScope,FutureScope,FutureScope,plus ,TRUE
+10,have difficulty understanding abstract ideas.,FutureScope,O,FutureScope,FutureScope,FutureScope,minus,TRUE
+11,feel comfortable around people.,FutureScope,E,FutureScope,FutureScope,FutureScope,plus ,TRUE
+12,like to insult people.,FutureScope,A,FutureScope,FutureScope,FutureScope,minus,TRUE
+13,pay attention to details.,FutureScope,C,FutureScope,FutureScope,FutureScope,plus ,TRUE
+14,worry about things.,FutureScope,N,FutureScope,FutureScope,FutureScope,minus,TRUE
+15,have vivid imagination.,FutureScope,O,FutureScope,FutureScope,FutureScope,plus ,TRUE
+16,keep in the background.,FutureScope,E,FutureScope,FutureScope,FutureScope,minus,TRUE
+17,sympathize with other's feelings.,FutureScope,A,FutureScope,FutureScope,FutureScope,plus ,TRUE
+18,make a mess of things.,FutureScope,C,FutureScope,FutureScope,FutureScope,minus,TRUE
+19,seldom feel blue (depressed).,FutureScope,N,FutureScope,FutureScope,FutureScope,plus ,TRUE
+20,am not interested in abstract ideas.,FutureScope,O,FutureScope,FutureScope,FutureScope,minus,TRUE
+21,start a conversation.,FutureScope,E,FutureScope,FutureScope,FutureScope,plus ,TRUE
+22,am not interested in other people's problems.,FutureScope,A,FutureScope,FutureScope,FutureScope,minus,TRUE
+23,get chores done right away.,FutureScope,C,FutureScope,FutureScope,FutureScope,plus ,TRUE
+24,am easily disturbed.,FutureScope,N,FutureScope,FutureScope,FutureScope,minus,TRUE
+25,have excellent ideas.,FutureScope,O,FutureScope,FutureScope,FutureScope,plus ,TRUE
+26,have little to say.,FutureScope,E,FutureScope,FutureScope,FutureScope,minus,TRUE
+27,have a soft heart.,FutureScope,A,FutureScope,FutureScope,FutureScope,plus ,TRUE
+28,often forget to put things back in their proper place.,FutureScope,C,FutureScope,FutureScope,FutureScope,minus,TRUE
+29,get upset easily.,FutureScope,N,FutureScope,FutureScope,FutureScope,plus ,TRUE
+30,do not have a good imagination.,FutureScope,O,FutureScope,FutureScope,FutureScope,minus,TRUE
+31,talk to a lot of different people at parties.,FutureScope,E,FutureScope,FutureScope,FutureScope,plus ,TRUE
+32,am not really interested in others.,FutureScope,A,FutureScope,FutureScope,FutureScope,minus,TRUE
+33,like order.,FutureScope,C,FutureScope,FutureScope,FutureScope,plus ,TRUE
+34,change my mood a lot.,FutureScope,N,FutureScope,FutureScope,FutureScope,minus,TRUE
+35,am quick to understand things.,FutureScope,O,FutureScope,FutureScope,FutureScope,plus ,TRUE
+36,do not like to draw attention to myself.,FutureScope,E,FutureScope,FutureScope,FutureScope,minus,TRUE
+37,take time out for others.,FutureScope,A,FutureScope,FutureScope,FutureScope,plus ,TRUE
+38,avoid my duties.,FutureScope,C,FutureScope,FutureScope,FutureScope,minus,TRUE
+39,have frequent mood swings.,FutureScope,N,FutureScope,FutureScope,FutureScope,plus ,TRUE
+40,use difficult words.,FutureScope,O,FutureScope,FutureScope,FutureScope,minus,TRUE
+41,do not mind being center of attention.,FutureScope,E,FutureScope,FutureScope,FutureScope,plus ,TRUE
+42,feel other's emotions.,FutureScope,A,FutureScope,FutureScope,FutureScope,minus,TRUE
+43,follow a schedule.,FutureScope,C,FutureScope,FutureScope,FutureScope,plus ,TRUE
+44,get irritated esily.,FutureScope,N,FutureScope,FutureScope,FutureScope,minus,TRUE
+45,spend time reflecting on things.,FutureScope,O,FutureScope,FutureScope,FutureScope,plus ,TRUE
+46,am quite around strangers.,FutureScope,E,FutureScope,FutureScope,FutureScope,minus,TRUE
+47,make people feel at ease.,FutureScope,A,FutureScope,FutureScope,FutureScope,plus ,TRUE
+48,am exciting in my work.,FutureScope,C,FutureScope,FutureScope,FutureScope,minus,TRUE
+49,often feel blue.,FutureScope,N,FutureScope,FutureScope,FutureScope,plus ,TRUE
+50,am full of ideas.,FutureScope,O,FutureScope,FutureScope,FutureScope,minus,TRUE

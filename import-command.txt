@@ -1,0 +1,7 @@
+
+// FOR QA SETUP in MLab for NOW
+mongoimport -h ds149040.mlab.com:49040 -d baanda-dev-06 -c allbaandaids -u babula -p Ranjan10 --file C:\baandadev2\baanda-dev2-assets\baanda_domain_ids.csv --type csv --headerline
+mongoimport -h ds149040.mlab.com:49040 -d baanda-dev-06 -c bigfivequestions -u babula -p Ranjan10 --file C:\baandadev2\baanda-dev2-assets\bigfivequestions-09132019.csv --type csv --headerline 
+
+// mongodb://babula:Ranjan10@ds149040.mlab.com:49040/baanda-dev-06
+
